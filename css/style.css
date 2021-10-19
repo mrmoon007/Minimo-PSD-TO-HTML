@@ -180,3 +180,13 @@ header {
 .subscribe input:focus {
   outline: 0px;
 }
+
+.learn-btn {
+  text-align: center;
+}
+.learn-btn button {
+  padding: 15px 25px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #333333;
+}
