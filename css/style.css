@@ -74,18 +74,21 @@ header {
   font-weight: 300;
   text-transform: uppercase;
   color: #c7c1b6;
+  font-size: 14px;
 }
 
 .details h1 {
   font-family: "Playfair Display", serif;
   color: #626262;
   padding: 25px 0;
+  font-size: 30px;
 }
 .details p {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   text-align: justify;
   color: #626262;
+  font-size: 14px;
 }
 
 .details h5 {
@@ -93,4 +96,48 @@ header {
   text-transform: uppercase;
   font-size: 14px;
   padding: 20px 0px;
+}
+
+/*************************
+    posts css start here
+************************** */
+
+.posts {
+  width: 100%;
+}
+.gallery {
+  padding: 70px;
+}
+
+.left {
+  width: 46%;
+  float: left;
+}
+
+.right {
+  width: 46%;
+  float: right;
+}
+
+.detail h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #c7c1b6;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.detail h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.detail p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: justify;
+  color: #626262;
+  font-size: 14px;
 }
