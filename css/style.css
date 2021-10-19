@@ -99,7 +99,7 @@ header {
 }
 
 /*************************
-    posts css start here
+    posts lifestyle css start here
 ************************** */
 
 .posts {
@@ -107,6 +107,7 @@ header {
 }
 .gallery {
   padding: 70px;
+  display: flow-root;
 }
 
 .left {
@@ -140,4 +141,42 @@ header {
   text-align: justify;
   color: #626262;
   font-size: 14px;
+}
+
+/*************************
+    newsletters css start here
+************************** */
+.newsletter {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 70px 0;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.subscribe input {
+  width: 33%;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  padding: 15px 0;
+}
+
+.subscribe input::placeholder {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #333333;
+}
+
+.subscribe input:focus {
+  outline: 0px;
 }
