@@ -60,3 +60,37 @@ header {
 /*************************
     main post css start here
 ************************** */
+
+.main-post {
+  width: 100%;
+}
+
+.details {
+  padding: 70px;
+}
+
+.details h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #c7c1b6;
+}
+
+.details h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  padding: 25px 0;
+}
+.details p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: justify;
+  color: #626262;
+}
+
+.details h5 {
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 20px 0px;
+}
